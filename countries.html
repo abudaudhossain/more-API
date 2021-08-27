@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        #countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4rem;
+        }
+
+        .country,.country-ditails {
+            border: 5px solid lightcoral;
+            padding: 10px;
+            margin: 15px;
+        }
+        .country-ditails{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Country Ditails</h2>
+    <section id="details-info">
+        <div id="ad" class="country-ditails">
+           
+        </div>
+    </section>
+   
+    <h1>Countries</h1>
+    <section id="countries">
+    </section>
+
+    <script src="js/countries.js"></script>
+</body>
+
+</html>
