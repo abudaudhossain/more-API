@@ -34,7 +34,7 @@ const displaySearchFood = (meals) => {
             </div>
             `;
             mealsContainer.appendChild(div);
-            // console.log(meal);
+            console.log(meal);
         })
     }
     // console.log(meals);
